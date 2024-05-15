@@ -1,0 +1,19 @@
+.Count {
+    color: #6B7280;
+    margin-left: 23px;
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Count {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .Count {
+        margin-left: 15px;
+        margin-right: 23px;
+    }
+    
+}

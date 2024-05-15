@@ -1,0 +1,57 @@
+.input_wrapper {
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding: 15px 20px 15px 12px;
+    border: 1px #E0E0E0 solid;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.label {
+    position: absolute;
+    font-size: 12px;
+    top: -7px;
+    left: 9px;
+    background-color: white;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.error {
+    margin-top: 3px;
+    color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+    .label {
+        font-size: 11px;
+    }
+    .error {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    .input {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .status {
+        width: 14.3vw;
+    }
+    .input {
+        padding: 13px 15px 13px 7px;
+    }
+    .label {
+        top: -7px;
+        left: 5px;
+    }
+    .error {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+}

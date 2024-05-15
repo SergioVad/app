@@ -1,0 +1,169 @@
+.error {
+    background-color: #FF9D8F;
+    color: #FD1E00;
+    padding: 3px 10px;
+}
+
+.new_func {
+    background-color: #59C6A5;
+    color: #396658;
+    padding: 3px 10px;
+}
+
+.improvement {
+    background-color: #6069c0;
+    color: #0c20d4;
+    padding: 3px 10px;
+}
+
+.documentaion {
+    background-color: #9cacbe;
+    color: #65696e;
+    padding: 3px 10px;
+}
+
+.in_work {
+    color: #0079C2;
+    background-color: #B3DAFA;
+    padding: 3px 7px;
+}
+
+.done {
+    background-color: #59C6A5;
+    color: #396658;
+    padding: 3px 7px;
+}
+
+.queue {
+    background-color: #7c7532;
+    color: #fae207;
+    padding: 3px 7px;
+}
+
+.tr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(160 160 160);
+}
+
+.td {
+    padding: 15px 10px;
+    text-align: center;
+    height: 50px;
+    width: calc(100% / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.tr:first-child {
+    border-top: none;
+}
+
+.tr:last-child {
+    border-bottom: 1px solid rgb(160 160 160);
+}
+
+.wrapper_descr {
+    transition: color .3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper_descr:hover {
+    color: red
+}
+
+.descr {
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.id {
+    color: #2196F3;
+    text-decoration: underline;
+    cursor: context-menu;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.id {
+    width: 13vw;
+}
+.type {
+    width: 22.5vw;
+}
+.wrapper_descr {
+    width: 14.5vw;
+}
+.name {
+    width: 18.5vw;
+}
+.date {
+    width: 13.5vw;
+}
+.status {
+    width: 13.5vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .tr {
+        font-size: 13px;
+    }
+    .id {
+        width: 13vw;
+    }
+    .type {
+        width: 22.5vw;
+    }
+    .wrapper_descr {
+        width: 14.5vw;
+    }
+    .name {
+        width: 18.5vw;
+    }
+    .date {
+        width: 13.5vw;
+    }
+    .status {
+        width: 13.5vw;
+    }
+    .descr {
+        height: 16px;
+    }   
+}
+
+@media only screen and (max-width: 992px) {
+    .tr {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tr {
+        justify-content: space-between;
+    }
+    .id {
+        width: 110px;
+    }
+    .type {
+        width: 172px;
+    }
+    .wrapper_descr {
+        width: 111px;
+    }
+    .name {
+        width: 142px;
+    }
+    .date {
+        width: 103px;
+    }
+    .status {
+        width: 103px;
+    }
+}

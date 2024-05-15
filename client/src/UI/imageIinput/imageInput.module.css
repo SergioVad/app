@@ -1,0 +1,70 @@
+.ImageInput {
+    margin-top: 15px;
+}
+
+.ImageInput input button {
+    display: none;
+}
+
+.ImageInput h3 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.label {
+    display: block;
+    margin-left: 17px;
+    margin-top: 14px;
+    cursor: pointer;
+    width: max-content;
+    transition: opacity .3s;
+}
+
+.label:hover {
+    opacity: 0.6;
+}
+
+.x_line, .y_line  {
+    width: 20px;
+    height: 3px;
+    background-color: #615E5E;
+    transform: translate(0px, 3px);
+}
+
+.x_line {
+    transform: translate(0px, 3px);
+
+}
+
+.y_line {
+    transform: rotate(90deg);
+}
+
+.error {
+    margin-top: 30px;
+    color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+    .ImageInput h3 {
+        font-size: 14px;
+    }
+    .label {
+        margin-left: 12px;
+        margin-top: 12px;
+    }
+    
+    .x_line {
+        width: 17px;
+        height: 3px;
+        background-color: #615E5E;
+        transform: translate(0px, 3px);
+    
+    }
+    .y_line {
+        width: 17px;
+        height: 3px;
+        transform: rotate(90deg);
+        background-color: #615E5E;
+    }
+}

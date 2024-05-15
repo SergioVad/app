@@ -1,0 +1,23 @@
+.App {
+    margin: 40px 47px;
+    height: 835px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: #D1D1D2 1px solid;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3),  
+                0px 5px 4px rgba(0, 0, 0, .3);
+}
+
+@media only screen and (max-width: 992px) {
+    .App {
+        margin: 0 10px;
+        width: fit-content;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .App {
+        margin: 0 10px;
+        width: 830px;
+    }
+}

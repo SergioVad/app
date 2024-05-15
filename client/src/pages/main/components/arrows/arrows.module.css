@@ -1,0 +1,11 @@
+.Arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    height: 14px;
+}
+
+.svg {
+    width: 9px;
+    height: max-content;
+}

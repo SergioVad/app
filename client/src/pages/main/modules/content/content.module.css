@@ -1,0 +1,23 @@
+.descr {
+    height: 20px;
+    overflow: hidden;
+}
+
+.wrapper_header {
+    display: flex;
+    width: 99%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .wrapper_header {
+        width: 98%;
+    }
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper_header {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,14 @@
+.Navbar {
+    width: 270px;
+    margin-right: 18px;
+    height: 65px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .Navbar {
+        margin-right: 0;
+    }
+}
